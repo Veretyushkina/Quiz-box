@@ -1,0 +1,58 @@
+.games {
+    margin-bottom: 65px;
+}
+
+.game {
+    display: flex;
+    padding: 20px 20px;
+    text-decoration: none;
+    transition: .9s;
+}
+
+game__btn
+
+.game--active {
+    background: #9A9A9A;
+}
+
+.game--active .game__btn{
+    border: 1px solid #8F00FF;
+    color: #8F00FF;
+    background: #fff;
+}
+
+.game:hover{
+    background: #9A9A9A;
+    transition: .9s;
+}
+
+.game:hover .game__btn {
+    border: 1px solid #8F00FF;
+    color: #8F00FF;
+    background: #fff;
+}
+
+.games__item {
+    margin-bottom: 49px;
+}
+
+.game__img {
+    width: 42%;
+    margin-right: 3%;
+}
+
+.game__content {
+    flex: 1;
+}
+
+.game__title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #000;
+}
+
+.game__desc {
+    line-height: 27px;
+    margin-bottom: 34px;
+}

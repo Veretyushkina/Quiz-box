@@ -1,0 +1,38 @@
+
+.footer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__col {
+    display: flex;
+    align-items: center;
+}
+
+.footer__col--align__right {
+    align-items: flex-end;
+
+}
+.footer-container {
+    margin-top: auto;
+    
+}
+
+.footer-container__content {
+    border-top: 1px solid #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.footer-container__section {
+    height: 146px;
+}
+
+.inner-footer__container {
+    padding: 20px 0px;
+}
+
+.inner-footer{
+margin-top: auto;
+}

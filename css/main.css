@@ -1,0 +1,32 @@
+@import url(./layout/base.css);
+@import url(./layout/fonts.css);
+@import url(./layout/normalize.css);
+
+@import url(./bloks/btn.css);
+@import url(./bloks/header.css);
+@import url(./bloks/hero-content.css);
+@import url(./bloks/logo.css);
+@import url(./bloks/menu.css);
+@import url(./bloks/contacts.css);
+@import url(./bloks/new.css);
+@import url(./bloks/section.css);
+@import url(./bloks/last.css);
+@import url(./bloks/pager.css);
+@import url(./bloks/about.css);
+@import url(./bloks/footer.css);
+@import url(./bloks/socials.css);
+
+@import url(./bloks/partners.css);
+@import url(./bloks/inner-section.css);
+@import url(./bloks/game.css);
+@import url(./bloks/page-content.css);
+@import url(./bloks/breadcrums.css);
+@import url(./bloks/top-line.css);
+
+@import url(./bloks/reviews.css);
+@import url(./bloks/avatar.css);
+@import url(./bloks/tag.css);
+@import url(./bloks/separator.css);
+@import url(./bloks/form.css);
+@import url(./bloks/controls.css);
+@import url(./bloks/welcome.css);

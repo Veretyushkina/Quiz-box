@@ -1,0 +1,30 @@
+
+.breadcrums__list {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrums__link {
+    color: #9A9A9A;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.breadcrums__item--active .breadcrums__link {
+    font-weight: bold;
+}
+
+.breadcrums__item {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrums__item::after {
+    content: "/";
+    color: #9A9A9A;
+    padding: 0 4px;
+}
+
+.breadcrums__item:last-child:after {
+    display: none;
+}

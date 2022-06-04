@@ -1,0 +1,36 @@
+.controls__elem {
+    cursor:pointer;
+}
+
+.controls__checkbox:checked ~ .controls__tag {
+    background: #B9EAE4;
+}
+
+.controls__checkbox {
+    display: none;
+}
+
+.form__controls {
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.form__controls-title {
+    width: 30%;
+    margin-right: 70px;
+}
+
+.controls {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.controls__iteam {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.controls__iteam:last-child {
+    margin-right: 0px;
+}
